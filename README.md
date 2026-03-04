@@ -4,7 +4,6 @@ This repository contains **Google Earth Engine (GEE) scripts** developed for sat
 
 The workflows integrate **Sentinel-1 SAR**, **Sentinel-2 optical imagery**, and agricultural datasets to support rapid flood mapping, paddy damage assessment, and recovery monitoring.
 
-The project was developed to support **FAO agricultural impact analysis, reporting, and recovery planning**.
 
 ---
 
@@ -20,7 +19,7 @@ This script maps **flood persistence and recession patterns** using Sentinel-1 S
 
 - Uses **Sentinel-1 SAR VH polarization**
 - Applies **ratio-based flood detection**
-- Uses a **baseline flood extent mask**
+- Uses a **baseline flood extent mask** (Source: UNOSAT https://experience.arcgis.com/experience/5936f7e5e2a94ef5a25debf8bbb01810/page/UNOSAT?views=Layers)
 - Compares flood conditions across multiple monitoring dates
 - Classifies flood recession patterns
 
@@ -34,6 +33,7 @@ This script maps **flood persistence and recession patterns** using Sentinel-1 S
 
 The workflow produces a **flood recession classification map for Sri Lanka**.
 
+![Workflow Diagram](Figures/flood_recession_workflow.png)
 ---
 
 ## 2. Multi-Year Paddy Classification (Maha Season)
@@ -64,6 +64,8 @@ This script generates a **baseline paddy cultivation extent map** using a multi-
 - Random Forest classifier
 - Spatial filtering to remove noise
 
+![Workflow Diagram](Figures/paddy_classification_workflow.png)
+
 ### Output
 
 A **baseline paddy distribution map** for seven major agricultural districts in Sri Lanka.
@@ -88,6 +90,7 @@ Users can **click on a flooded paddy location** to generate NDVI recovery curves
 
 This approach helps monitor **post-flood recultivation progress and vegetation recovery**.
 
+![Workflow Diagram](Figures/recultivation_monitoring_workflow.png)
 ---
 
 # Tools and Platforms
@@ -98,7 +101,6 @@ The workflows were implemented using:
 - **Sentinel-1 SAR imagery**
 - **Sentinel-2 Surface Reflectance**
 - **Random Forest machine learning**
-- **ArcGIS Online StoryMaps** for dissemination
 
 ---
 
