@@ -4,6 +4,7 @@ This repository contains **Google Earth Engine (GEE) scripts** developed for sat
 
 The workflows integrate **Sentinel-1 SAR**, **Sentinel-2 optical imagery**, and agricultural datasets to support rapid flood mapping, paddy damage assessment, and recovery monitoring.
 
+This work was developed with technical expertise of the **Food and Agriculture Organization of the United Nations (FAO)** as part of efforts to strengthen satellite-based agricultural damage assessment and recovery monitoring.
 
 ---
 
@@ -127,8 +128,6 @@ https://arcg.is/0abz8P0
 https://samithada.users.earthengine.app/view/paddy-recultivation-monitor-ndvi
 
 ---
+# References
 
-# Author
-
-**Samitha Daranagama**  
-Remote Sensing and GIS Researcher  
+Department of Agriculture Sri Lanka. (2025) CROPIX digital agriculture platform. Available at: https://digital.doa.gov.lk/ (Last accessed: 06 March 2026).
